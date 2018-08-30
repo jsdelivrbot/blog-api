@@ -10,7 +10,7 @@ app.use(function(req, res, next){
   if (path.extname(req.path) === '.js'){
     res.set("content-type", "application/javascript; charset=utf-8");
   }
-  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');
+  res.setHeader('Access-Control-Allow-Origin', 'https://trendandtonic-3d8e1.firebaseapp.com');
   res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
   next();
 });
