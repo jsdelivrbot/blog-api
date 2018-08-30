@@ -1,7 +1,7 @@
 const express   = require('express')
 const app       = express()
 const path      = require('path');
-const mysql     = require('mysql');
+//const mysql     = require('mysql');
 const port      = 3000;
 
 const postsObject = require('./mock-posts.json')
