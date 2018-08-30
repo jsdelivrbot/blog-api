@@ -35,7 +35,7 @@ app.get('/posts', function (req, res) {
 });
 
 
-app.listen(port);
+app.listen(process.env.PORT || port)
 
 
 function queryDatabase(sqlquery, callback) {
