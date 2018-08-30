@@ -1,0 +1,76 @@
+{
+    "data": [
+        {   
+            "id": "1",
+            "type": "post",
+            "attributes": {
+                "date": "AUGUST 12, 2018",
+                "title": "Exploring downtown raleigh on the bird",
+                "condensedtitle": "pos1",
+                "content": "<p>Last week we went to Miami Beach, Florida for the first time, and we had a blast! We decided to drive, and started our trip by stopping in Savannah, GA, for an evening, and then making the rest of the drive to Miami. Overall, the city had so much to take in, but we were surprised by how expensive drinks and food were in the city. There were so many cool sites and places to see, one week hardly seemed like enough time to see everything.</p><p class=\"post--subtitle\">WHere we stayed:</p><p>We stayed at the oceanfront Palms Hotel on Collins Ave. I can honestly say it was a gorgeous hotel, and they clearly go above and beyond taking care of the grounds. It was complete with 2 resturants, 3 bars, and a pool sourrounded by tiki cabanas, palm trees, and loungers. There were two parrots that live on the premises which was a nice wel;come as you enteted the pool area each day. </p><img src=\"/assets/images/miami4.jpg\"><img src=\"/assets/images/miami2.jpg\"><img src=\"/assets/images/miami5.jpg\"><img src=\"/assets/images/miami3.jpg\"><img src=\"/assets/images/miami1.jpg\">",
+                "coverphoto": "post2",
+                "category": "lifestyle"
+            }
+        },
+        {
+            "id": "2",
+            "type": "post",
+            "attributes": {
+                "date": "August 5, 2018",
+                "title": "sola coffee cafe",
+                "condensedtitle": "pos1",
+                "content": "<p>Last week we went to Miami Beach, Florida for the first time, and we had a blast! We decided to drive, and started our trip by stopping in Savannah, GA, for an evening, and then making the rest of the drive to Miami. Overall, the city had so much to take in, but we were surprised by how expensive drinks and food were in the city. There were so many cool sites and places to see, one week hardly seemed like enough time to see everything.</p><p class=\"post--subtitle\">WHere we stayed:</p><p>We stayed at the oceanfront Palms Hotel on Collins Ave. I can honestly say it was a gorgeous hotel, and they clearly go above and beyond taking care of the grounds. It was complete with 2 resturants, 3 bars, and a pool sourrounded by tiki cabanas, palm trees, and loungers. There were two parrots that live on the premises which was a nice wel;come as you enteted the pool area each day. </p><img src=\"/assets/images/miami4.jpg\"><img src=\"/assets/images/miami2.jpg\"><img src=\"/assets/images/miami5.jpg\"><img src=\"/assets/images/miami3.jpg\"><img src=\"/assets/images/miami1.jpg\">",
+                "coverphoto": "post3",
+                "category": "lifestyle"
+            }
+        },
+        {
+            "id": "3",
+            "type": "post",
+            "attributes": {
+                "date": "July 29, 2018",
+                "title": "Brunch date with my hubby!",
+                "condensedtitle": "pos1",
+                "content": "<p><img src=\"/assets/images/brunch.jpg\"><img src=\"/assets/images/brunch2.jpg\"><img src=\"/assets/images/brunch3.jpg\"></p>",
+                "coverphoto": "post14",
+                "category": "lifestyle"
+            }
+        },
+        {
+            "id": "4",
+            "type": "post",
+            "attributes": {
+                "date": "July 7, 2018",
+                "title": "Diy guest room sign",
+                "condensedtitle": "pos1",
+                "content": "<p>Last week we went to Miami Beach, Florida for the first time, and we had a blast! We decided to drive, and started our trip by stopping in Savannah, GA, for an evening, and then making the rest of the drive to Miami. Overall, the city had so much to take in, but we were surprised by how expensive drinks and food were in the city. There were so many cool sites and places to see, one week hardly seemed like enough time to see everything.</p><p class=\"post--subtitle\">WHere we stayed:</p><p>We stayed at the oceanfront Palms Hotel on Collins Ave. I can honestly say it was a gorgeous hotel, and they clearly go above and beyond taking care of the grounds. It was complete with 2 resturants, 3 bars, and a pool sourrounded by tiki cabanas, palm trees, and loungers. There were two parrots that live on the premises which was a nice wel;come as you enteted the pool area each day. </p><img src=\"/assets/images/miami4.jpg\"><img src=\"/assets/images/miami2.jpg\"><img src=\"/assets/images/miami5.jpg\"><img src=\"/assets/images/miami3.jpg\"><img src=\"/assets/images/miami1.jpg\">",
+                "coverphoto": "post8",
+                "category": "lifestyle"
+            }
+        },
+        {
+            "id": "5",
+            "type": "post",
+            "attributes": {
+                "date": "May 22, 2018",
+                "title": "our vacation in miami beach",
+                "condensedtitle": "pos1",
+                "content": "<p>Last week we went to Miami Beach, Florida for the first time, and we had a blast! We decided to drive, and started our trip by stopping in Savannah, GA, for an evening, and then making the rest of the drive to Miami. Overall, the city had so much to take in, but we were surprised by how expensive drinks and food were in the city. There were so many cool sites and places to see, one week hardly seemed like enough time to see everything.</p><p class=\"post--subtitle\">WHere we stayed:</p><p>We stayed at the oceanfront Palms Hotel on Collins Ave. I can honestly say it was a gorgeous hotel, and they clearly go above and beyond taking care of the grounds. It was complete with 2 resturants, 3 bars, and a pool sourrounded by tiki cabanas, palm trees, and loungers. There were two parrots that live on the premises which was a nice wel;come as you enteted the pool area each day. </p><img src=\"/assets/images/miami4.jpg\"><img src=\"/assets/images/miami2.jpg\"><img src=\"/assets/images/miami5.jpg\"><img src=\"/assets/images/miami3.jpg\"><img src=\"/assets/images/miami1.jpg\">",
+                "coverphoto": "post1",
+                "category": "lifestyle"
+            }
+        },
+        {
+            "id": "6",
+            "type": "post",
+            "attributes": {
+                "date": "May 22, 2018",
+                "title": "Finally finished the dining room",
+                "condensedtitle": "pos1",
+                "content": "<p>Last week we went to Miami Beach, Florida for the first time, and we had a blast! We decided to drive, and started our trip by stopping in Savannah, GA, for an evening, and then making the rest of the drive to Miami. Overall, the city had so much to take in, but we were surprised by how expensive drinks and food were in the city. There were so many cool sites and places to see, one week hardly seemed like enough time to see everything.</p><p class=\"post--subtitle\">WHere we stayed:</p><p>We stayed at the oceanfront Palms Hotel on Collins Ave. I can honestly say it was a gorgeous hotel, and they clearly go above and beyond taking care of the grounds. It was complete with 2 resturants, 3 bars, and a pool sourrounded by tiki cabanas, palm trees, and loungers. There were two parrots that live on the premises which was a nice wel;come as you enteted the pool area each day. </p><img src=\"/assets/images/miami4.jpg\"><img src=\"/assets/images/miami2.jpg\"><img src=\"/assets/images/miami5.jpg\"><img src=\"/assets/images/miami3.jpg\"><img src=\"/assets/images/miami1.jpg\">",
+                "coverphoto": "post7",
+                "category": "lifestyle"
+            }
+        }
+    ]
+}
