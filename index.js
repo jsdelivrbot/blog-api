@@ -4,13 +4,15 @@ const path      = require('path');
 //const mysql     = require('mysql');
 const port      = 3000;
 
-const postsObject = require('./mock-posts.json')
+const postsObject = require('./mock-posts.json');
+const fashionsObject = require('./mock-fashions.json');
 
 app.use(function(req, res, next){
   if (path.extname(req.path) === '.js'){
     res.set("content-type", "application/javascript; charset=utf-8");
   }
   res.setHeader('Access-Control-Allow-Origin', 'https://trendandtonic-3d8e1.firebaseapp.com');
+  // res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');
   res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
   next();
 });
@@ -32,6 +34,11 @@ app.get('/post/:id', function (req, res) {
 
 app.get('/posts', function (req, res) {
   return res.json(postsObject);
+});
+
+app.get('/fashions', function(req, res){
+  console.log("adfasdfasdf");
+  return res.json(fashionsObject);
 });
 
 
