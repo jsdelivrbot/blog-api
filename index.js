@@ -12,7 +12,7 @@ app.use(function(req, res, next){
     res.set("content-type", "application/javascript; charset=utf-8");
   }
   res.setHeader('Access-Control-Allow-Origin', 'https://trendandtonic-3d8e1.firebaseapp.com');
-  // res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');
+  //res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');
   res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
   next();
 });
@@ -33,11 +33,12 @@ app.get('/post/:id', function (req, res) {
 // });
 
 app.get('/posts', function (req, res) {
+  console.log("Requestion posts...")
   return res.json(postsObject);
 });
 
 app.get('/fashions', function(req, res){
-  console.log("adfasdfasdf");
+  console.log("Requesting fashions...");
   return res.json(fashionsObject);
 });
 
