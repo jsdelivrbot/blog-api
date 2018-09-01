@@ -37,7 +37,7 @@
             "type": "fashion",
             "attributes": {
                 "image": "fashion4.jpg",
-                "content": "coming soon"
+                "content": "<div class=\"col-md-5 link\"><a href=\"https://oldnavy.gap.com/browse/product.do?cid=1116586&pcid=72091&vid=1&pid=286747062\"><img class=\"fashion-view-link\" src=\"http://i66.tinypic.com/2wdc8ap.png\"></a></div><div class=\"col-md-5 link\"><a href=\"https://www.dsw.com/en/us/product/vince-camuto-kantha-over-the-knee-boot/428016?activeColor=001\"><img class=\"fashion-view-link\" src=\"http://i66.tinypic.com/2qicje9.png\"></a></div>"
             }
         }
     ]
