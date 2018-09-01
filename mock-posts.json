@@ -1,7 +1,7 @@
 {
     "data": [
         {   
-            "id": "1",
+            "id": "exploring-downtown-bird",
             "type": "post",
             "attributes": {
                 "date": "AUGUST 12, 2018",
@@ -13,7 +13,7 @@
             }
         },
         {
-            "id": "2",
+            "id": "sola-coffee",
             "type": "post",
             "attributes": {
                 "date": "August 5, 2018",
@@ -25,7 +25,7 @@
             }
         },
         {
-            "id": "3",
+            "id": "our-brunch-date",
             "type": "post",
             "attributes": {
                 "date": "July 29, 2018",
@@ -37,7 +37,7 @@
             }
         },
         {
-            "id": "4",
+            "id": "DIY-guest-room-sign",
             "type": "post",
             "attributes": {
                 "date": "July 7, 2018",
@@ -49,7 +49,7 @@
             }
         },
         {
-            "id": "5",
+            "id": "vacation-in-miami",
             "type": "post",
             "attributes": {
                 "date": "May 22, 2018",
@@ -61,7 +61,7 @@
             }
         },
         {
-            "id": "6",
+            "id": "dining-room-decor",
             "type": "post",
             "attributes": {
                 "date": "May 22, 2018",
