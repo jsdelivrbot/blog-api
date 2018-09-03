@@ -1,0 +1,22 @@
+{
+    "data": [
+        {   
+            "id": "lettered-sign",
+            "type": "project",
+            "attributes": {
+                "title": "How to make your own lettered sign",
+                "content": "<p class=\"projects--img-cont\"><img class=\"projects--image\" src=\"http://i68.tinypic.com/e994xi.jpg\"></p><p>I have always loved rustic looking lettered signs, but they sell for such high prices in decor stores. After seeing several ideas that I really loved, I decided to give it a shot myself. I didn't have high expectations, but ended up being thrilled with how it turned out, and have now made several for around our house! It is a fairly simple process, so I have typed up my process for making these little pieces of rustic charm for the home. Happy crafting!</p><p class=\"post--subtitle\">What you'll need:</p><p>- Sanded wood in your desired size (I usually get mine from Michaels or else Lowes)<br>- Paint or stain (in this example, I used matte antique white spray paint)<br>- ModPodge<br>- Paint brush<br>- Microsoft Word (yes, seriously)<br>- Rag/Cloth</p><p class=\"post--subtitle\">Getting started:</p>",
+                "image": "diy1"
+            }
+        },
+        {   
+            "id": "hanging-leaf-frames",
+            "type": "project",
+            "attributes": {
+                "title": "Hanging leaf frames",
+                "content": "<p class=\"projects--img-cont\"><img class=\"projects--image\" src=\"http://i68.tinypic.com/34pgq46.jpg\"></p><p>So this idea I actually saw on pinterest, and loved the look of the hanging frames, and had to recreate it for our guest room. My husband and I actually went on a hike at Umstead Park, where we found lots of different leaf options for this project. My hope is to actually recreate this once the leaves start changing, and make some for downstairs as fall decor :) Theres not a whole lot to this project, but I think projects that are easy to create, but add so much flare, are some of the best.</p><p class=\"post--subtitle\">What you'll need:</p><p>- Hanging frames (I got mine from Michaels, but World Market has <a href=\"https://www.worldmarket.com/product/antique+zinc+metal+vertical+reese+frame.do?sortby=ourPicks\">some nice ones too</a>)<br>- Large book(s)<br>- Tissue Paper<br>- Leaves, flowers, or whatever you'd like in the frames</p><p class=\"post--subtitle\">Getting started:</p>",
+                "image": "diy2"
+            }
+        }
+    ]
+}

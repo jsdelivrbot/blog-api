@@ -6,11 +6,13 @@ const port      = 3000;
 
 const postsObject = require('./mock-posts.json');
 const fashionsObject = require('./mock-fashions.json');
+const projectsObject = require('./mock-projects.json');
 
 app.use(function(req, res, next){
   if (path.extname(req.path) === '.js'){
     res.set("content-type", "application/javascript; charset=utf-8");
   }
+
   res.setHeader('Access-Control-Allow-Origin', 'https://trendandtonic-3d8e1.firebaseapp.com');
   //res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');
   res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
@@ -33,13 +35,35 @@ app.get('/post/:id', function (req, res) {
 // });
 
 app.get('/posts', function (req, res) {
-  console.log("Requestion posts...")
+  console.log("Requesting posts...")
   return res.json(postsObject);
 });
 
 app.get('/fashions', function(req, res){
   console.log("Requesting fashions...");
   return res.json(fashionsObject);
+});
+
+app.get('/projects', function(req, res){
+  console.log("Requesting projects...");
+  return res.json(projectsObject);
+});
+
+app.get('/fashions/:id', function(req, res){
+  console.log("Requesting fashions id...");
+  return res.json(
+    {data: {
+      "id": "5",
+      "type": "fashion",
+      "attributes": {
+          "image": "fashion6.jpg",
+          "content": "<div class=\"col-md-5 link\"><a href=\"http://www2.hm.com/en_us/productpage.0484205017.html\"><img class=\"fashion-view-link\" src=\"http://i68.tinypic.com/r9ei9t.png\"></a></div><div class=\"col-md-5 link\"><a href=\"https://www.forever21.com/us/shop/Catalog/Product/f21/acc_handbags-crossbody-bag/1000297625\"><img class=\"fashion-view-link\" src=\"http://i65.tinypic.com/2mynngz.png\"></a></div>    <div class=\"col-md-5 link\"><a href=\"https://www.forever21.com/us/shop/catalog/product/f21/dress/2000281465\"><img class=\"fashion-view-link\" src=\"http://i65.tinypic.com/muc091.png\"></a></div>"
+      }
+  }}
+
+
+
+  );
 });
 
 
