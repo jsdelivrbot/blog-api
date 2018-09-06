@@ -7,7 +7,7 @@ const port      = 3000;
 const postsObject = require('./mock-posts.json');
 const fashionsObject = require('./mock-fashions.json');
 const projectsObject = require('./mock-projects.json');
-
+const decorObject = require('./mock-decorations.json');
 app.use(function(req, res, next){
   if (path.extname(req.path) === '.js'){
     res.set("content-type", "application/javascript; charset=utf-8");
@@ -21,8 +21,9 @@ app.use(function(req, res, next){
 
 
 // respond with "hello world" when a GET request is made to the homepage
-app.get('/post/:id', function (req, res) {
-  return res.json({"data":{"type": "post", "id":"12312342", "date":"asdf", "post-id":1, "title":"asdf", "condensedtitle":"gsdhe", "content":"adsfag", "coverphoto":"aheteh" }});
+app.get('/posts/:id', function (req, res) {
+  
+ return postsObject[req.query.id];
 });
 
 // for database
@@ -47,6 +48,11 @@ app.get('/fashions', function(req, res){
 app.get('/projects', function(req, res){
   console.log("Requesting projects...");
   return res.json(projectsObject);
+});
+
+app.get('/decorations', function(req, res){
+  console.log("Requesting decor...");
+  return res.json(decorObject);
 });
 
 app.get('/fashions/:id', function(req, res){
