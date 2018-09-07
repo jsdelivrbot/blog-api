@@ -1,6 +1,14 @@
 {
     "data": [
         {
+            "id": "1",
+            "type": "fashion",
+            "attributes": {
+                "image": "fashion7.jpg",
+                "content": "<div class=\"col-md-5 link\"><a href=\"https://www.vestique.com/fly-away-top\"><img class=\"fashion-view-link\" src=\"http://i66.tinypic.com/2nte7tf.png\"></a></div><div class=\"col-md-5 link\"><a href=\"https://www.target.com/p/women-s-panama-hat-a-new-day-153-tan/-/A-53047982#\"><img class=\"fashion-view-link\" src=\"http://i66.tinypic.com/308wm80.png\"></a></div><div class=\"col-md-5 link\"><a href=\"https://www.forever21.com/us/shop/Catalog/Product/f21/acc_handbags-crossbody-bag/1000297625\"><img class=\"fashion-view-link\" src=\"http://i65.tinypic.com/2mynngz.png\"></a></div>"
+            }
+        },
+        {
             "id": "5",
             "type": "fashion",
             "attributes": {
@@ -9,7 +17,7 @@
             }
         },
         {   
-            "id": "1",
+            "id": "6",
             "type": "fashion",
             "attributes": {
                 "image": "fashion1.jpg",
