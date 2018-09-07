@@ -13,14 +13,8 @@ app.use(function(req, res, next){
     res.set("content-type", "application/javascript; charset=utf-8");
   }
 
-  //res.setHeader('Access-Control-Allow-Origin', 'https://trendandtonic-3d8e1.firebaseapp.com');
-  $http_origin = req.get('origin');;
-
-if ($http_origin == "https://trendandtonic.com" || $http_origin == "https://trendandtonic-3d8e1.firebaseapp.com"){  
-  header("Access-Control-Allow-Origin: $http_origin");
-}
-  
-  //res.setHeader('Access-Control-Allow-Origin', 'https://trendandtonic.com');
+  res.setHeader('Access-Control-Allow-Origin', 'https://trendandtonic-3d8e1.firebaseapp.com');
+  res.setHeader('Access-Control-Allow-Origin', 'https://trendandtonic.com');
   //res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');
   res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
   next();
